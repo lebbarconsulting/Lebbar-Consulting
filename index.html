@@ -58,7 +58,17 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span> <script> document.write(new Date().toDateString()); </script> </span>
+									n =  new Date();
+									y = n.getFullYear();
+									m = n.getMonth() + 1;
+									d = n.getDate();
+									document.getElementById("date").innerHTML = m.toDateString + "/" + d + "/," + y;
+									
+									
+									
+									
+									
+									<!--<span> <script> document.write(new Date().toDateString()); </script> </span>
 								<!-- <span class="date">April 25, 2017</span>-->
 									<h2><a href="#">And this is a<br />
 									massive headline</a></h2>

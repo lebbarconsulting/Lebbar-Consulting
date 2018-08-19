@@ -64,7 +64,9 @@
 									y = n.getFullYear();
 									m = n.getMonth() + 1;
 									d = n.getDate();
-									document.getElementById("date").innerHTML = m.toMonthString + "," + d + "/," + y; </script>
+										const monthNames = ["January", "February", "March", "April", "May", "June", "July", 
+												    "August", "September", "October", "November", "December" ];
+									document.getElementById("date").innerHTML = monthNames[m] + "," + d + "," + y; </script>
 									
 									
 									

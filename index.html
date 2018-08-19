@@ -58,11 +58,11 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									n =  new Date();
+									<script> n =  new Date();
 									y = n.getFullYear();
 									m = n.getMonth() + 1;
 									d = n.getDate();
-									document.getElementById("date").innerHTML = m + "/" + d + "/," + y;
+									document.getElementById("date").innerHTML = m.toDateString() + "/" + d + "/," + y; </script>
 									<p id="date"></p>
 									
 									
